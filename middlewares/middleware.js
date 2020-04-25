@@ -20,7 +20,7 @@ export default async function  (req, res) {
     await middleware(req, res, cookieSession({
         keys: ['aaaa'],
         secure: true,
-        httpOnly: true
+        //httpOnly: true
     }))
 
     await middleware(req, res, passport.initialize())
