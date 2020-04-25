@@ -19,6 +19,7 @@ function middleware(req, res, fn) {
 export default async function  (req, res) {
     await middleware(req, res, cookieSession({
         keys: ['aaaa'],
+        secret: '123455',
         secure: true,
         //httpOnly: true
     }))
