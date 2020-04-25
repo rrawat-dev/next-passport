@@ -1,0 +1,30 @@
+{
+  "name": "next-passport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrawat-dev/next-passport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rrawat-dev/next-passport/issues"
+  },
+  "homepage": "https://github.com/rrawat-dev/next-passport#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "next": "^9.3.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
